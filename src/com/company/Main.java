@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -18,5 +20,10 @@ public class Main {
         else {
             System.out.println("Вы сохранили нуль");
         }
+
+        System.out.println("Введите ваше имя");
+        Scanner scanner = new Scanner(System.in);
+        String name = scanner.next();
+        System.out.println("Привет " +  name);
     }
 }

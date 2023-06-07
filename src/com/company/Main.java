@@ -24,6 +24,7 @@ public class Main {
         System.out.println("Введите ваше имя");
         Scanner scanner = new Scanner(System.in);
         String name = scanner.next();
+
         System.out.println("Привет " +  name);
     }
 }
